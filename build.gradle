@@ -18,6 +18,8 @@ repositories {
 dependencies {
     def walaVersion = '1.5.7'
 
+    implementation "com.alibaba:fastjson:1.1.54.android"
+
     implementation "com.ibm.wala:com.ibm.wala.shrike:${walaVersion}"
     implementation "com.ibm.wala:com.ibm.wala.util:${walaVersion}"
     implementation "com.ibm.wala:com.ibm.wala.core:${walaVersion}"
